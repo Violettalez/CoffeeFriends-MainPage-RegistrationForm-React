@@ -1,0 +1,337 @@
+.registration {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.registrationForm {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  background-image: url("./form.png");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  height: 50vh;
+  width: 40vw;
+  border-radius: 15px;
+  padding: 30px 30px;
+}
+.form-label {
+  font-weight: 600;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+.form-label1 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #4d4d4d;
+  margin: 0px 0px 10px 0px;
+}
+.form-label2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #4d4d4d;
+  margin: 0px 0px 15px 0px;
+}
+.form6_message {
+  font-weight: 600;
+  font-size: 20px;
+  color: #4d4d4d;
+  margin: 10% 10% 0% 10%;
+  text-align: center;
+}
+.form6_message2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #4d4d4d;
+  text-align: end;
+  font-style: italic;
+}
+.logo-circle {
+  display: flex;
+  background-color: #feede1;
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+input,
+select {
+  border: 1px solid #6f5d57;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 10px;
+  width: 97%;
+}
+.shortLogoProfilePage {
+  height: 160px;
+}
+.buttons {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.formNextButton {
+  width: 15%;
+  border-radius: 5px;
+  background-color: #feede1;
+  border: none;
+  color: #6f5d57;
+  font-weight: 600;
+  font-size: 18px;
+  align-self: flex-end;
+  margin-top: auto;
+  transition: background-color 1s, color 1s;
+  padding: 10px 10px;
+}
+.buttonsFinish {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+.formFinishButton {
+  width: 30%;
+  border-radius: 5px;
+  background-color: #feede1;
+  border: none;
+  color: #6f5d57;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: auto;
+  margin-left: 10px;
+  transition: background-color 1s, color 1s;
+  padding: 10px 10px;
+}
+.formNextButton:hover,
+.formRegButton:hover,
+.formRegButton {
+  width: 20%;
+  border-radius: 5px;
+  background-color: #feede1;
+  border: none;
+  color: #6f5d57;
+  font-weight: 600;
+  font-size: 18px;
+  align-self: flex-end;
+  margin-top: auto;
+  transition: background-color 1s, color 1s;
+  padding: 10px 10px;
+}
+.gps_button {
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #242120;
+  color: #242120;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 10px;
+  transition: background-color 1s, color 1s, border 1s;
+}
+.gps_button:hover {
+  background-color: #6f5d57;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.interests_buttons {
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #6f5d57;
+  color: #6f5d57;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 10px;
+  transition: background-color 1s, color 1s, border 1s;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.interests_buttons:hover {
+  background-color: #6f5d57;
+  border: 1px solid white;
+  color: white;
+}
+.interests_button_selected {
+  border-radius: 5px;
+  background-color: #6f5d57;
+  border: 1px solid white;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 10px;
+  transition: background-color 1s, color 1s, border 1s;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.int_butt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.next_interests_button {
+  background: none;
+  border: none;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.next_interests_button img {
+  width: 30px;
+  height: 30px;
+}
+.login_in_link {
+  color: #6f5d57;
+  font-weight: 600;
+  font-size: 20px;
+}
+.formLastButton {
+  width: 15%;
+  border-radius: 5px;
+  background-color: #feede1;
+  border: none;
+  color: #6f5d57;
+  font-weight: 600;
+  font-size: 18px;
+  transition: background-color 1s, color 1s;
+  padding: 10px 10px;
+}
+.formLastButton:hover {
+  background-color: #aa8f7d;
+  color: #feede1;
+}
+.circleProfilePage1,
+.circleProfilePage2,
+.circleProfilePage3,
+.circleProfilePage4 {
+  background-color: #d5b59e;
+  position: absolute;
+  border-radius: 50%;
+}
+.circleProfilePage5,
+.circleProfilePage6,
+.circleProfilePage7 {
+  background-color: #feede1;
+  position: absolute;
+  border-radius: 50%;
+}
+.circleProfilePage1 {
+  height: 700px;
+  width: 700px;
+  z-index: -1;
+  top: 520px;
+  left: 1400px;
+}
+.circleProfilePage2 {
+  height: 350px;
+  width: 350px;
+  z-index: -1;
+  top: 420px;
+  left: 1100px;
+}
+.circleProfilePage3 {
+  height: 108px;
+  width: 108px;
+  top: 210px;
+  left: 1230px;
+  z-index: 0;
+}
+.circleProfilePage4 {
+  height: 290px;
+  width: 290px;
+  top: 80px;
+  left: 1560px;
+  z-index: 0;
+}
+.circleProfilePage5 {
+  height: 108px;
+  width: 108px;
+  top: 250px;
+  left: 1780px;
+  z-index: 1;
+}
+.circleProfilePage6 {
+  height: 300px;
+  width: 300px;
+  top: 165px;
+  left: 785px;
+  z-index: -1;
+}
+.circleProfilePage7 {
+  height: 780px;
+  width: 780px;
+  top: 500px;
+  left: -75px;
+  z-index: -1;
+}
+.message {
+  color: red;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+@media screen and (max-width: 1981px) {
+  .logo-circle {
+    display: flex;
+    background-color: #feede1;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .circleProfilePage1 {
+    height: 700px;
+    width: 700px;
+    z-index: -1;
+    top: 520px;
+    left: 1050px;
+  }
+  .circleProfilePage2 {
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    top: 400px;
+    left: 900px;
+  }
+  .circleProfilePage3 {
+    height: 108px;
+    width: 108px;
+    top: 170px;
+    left: 1000px;
+    z-index: 0;
+  }
+  .circleProfilePage4 {
+    height: 200px;
+    width: 200px;
+    top: 80px;
+    left: 1300px;
+    z-index: 0;
+  }
+  .circleProfilePage5 {
+    height: 100px;
+    width: 100px;
+    top: 550px;
+    left: 1000px;
+    z-index: 1;
+  }
+  .circleProfilePage6 {
+    height: 300px;
+    width: 300px;
+    top: 90px;
+    left: 650px;
+    z-index: -1;
+  }
+  .circleProfilePage7 {
+    height: 780px;
+    width: 780px;
+    top: 420px;
+    left: -70px;
+    z-index: -1;
+  }
+}

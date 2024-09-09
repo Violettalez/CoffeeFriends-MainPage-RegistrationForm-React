@@ -1,0 +1,102 @@
+.circle1 {
+  width: 1182px;
+  height: 1182px;
+  border-radius: 50%;
+  background-color: #d5b59e;
+  position: absolute;
+  left: -413px;
+  top: -750px;
+  z-index: -1;
+}
+.circle2 {
+  width: 1182px;
+  height: 1182px;
+  border-radius: 50%;
+  background-color: #d5b59e;
+  position: absolute;
+  left: 1125px;
+  top: 397px;
+  z-index: -1;
+}
+.circle3 {
+  width: 1812px;
+  height: 1812px;
+  border-radius: 50%;
+  background-color: #feede1;
+  position: absolute;
+  left: 811px;
+  top: -1359px;
+  z-index: -1;
+}
+.circle4 {
+  width: 1812px;
+  height: 1812px;
+  border-radius: 50%;
+  background-color: #feede1;
+  position: absolute;
+  left: -800px;
+  top: 464px;
+  z-index: -1;
+}
+.entry {
+  display: flex;
+  flex-direction: column;
+  max-width: 298px;
+  margin: 0px auto;
+}
+.createProfileButton {
+  margin-top: 30px;
+  background-color: #feede1;
+  color: #6f5d57;
+  height: 80px;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 0px;
+  box-shadow: 0px 0px 7px -2px #6f5d57;
+  transition: background-color 1s, color 1s;
+}
+.createProfileButton:hover {
+  background-color: #aa8f7d;
+  color: #feede1;
+}
+
+/*dark mode*/
+
+.entry_dark {
+  display: flex;
+  flex-direction: column;
+  max-width: 298px;
+  margin: 10% auto;
+}
+.createProfileButton_dark {
+  margin-top: 30px;
+  background-color: #feede1;
+  color: #6f5d57;
+  height: 80px;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  border: 0px;
+  box-shadow: 0px 0px 7px -2px #6f5d57;
+  transition: background-color 1s, color 1s;
+}
+.createProfileButton_dark:hover {
+  background-color: #aa8f7d;
+  color: #feede1;
+}
+
+/*screen laptop*/
+
+@media screen and (max-width: 1981px) {
+  .circle2 {
+    width: 1182px;
+    height: 1182px;
+    border-radius: 50%;
+    background-color: #d5b59e;
+    position: absolute;
+    left: 1000px;
+    top: 370px;
+    z-index: -1;
+  }
+}

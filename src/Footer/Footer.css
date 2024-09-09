@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  z-index: 1000;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #242120;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter;
+}
+footer ul li {
+  list-style-type: none;
+}
+footer .socialMedia {
+  margin-left: auto;
+  margin-right: 16px;
+}
+.media {
+  display: flex;
+  justify-content: right;
+}
+footer .socialMedia p {
+  margin-top: 12px;
+  font-weight: 600;
+}
+.media img:first-child {
+  margin-right: 35px;
+}
